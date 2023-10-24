@@ -335,10 +335,13 @@ header {
   height: 78px;
 }
 
-.go-down img {
-  width: 15px;
+.go-down a {
   position: relative;
   top: -60px;
+}
+
+.go-down img {
+  width: 15px;
   cursor: pointer;
 }
 
@@ -353,6 +356,10 @@ header {
 .online-payment img {
   width: 450px;
   height: 480px;
+}
+
+.Online-Payment-Gateway {
+  padding-top: 90px;
 }
 
 .section-text {
@@ -379,7 +386,7 @@ header {
 
 .section-text p {
   color: #303030;
-  font-family: "YekanBakhMedium";
+  font-family: "iranyekanwebmedium";
   text-align: justify;
   line-height: 40px;
   border-bottom: 1px solid #dfe1e4;
@@ -437,7 +444,7 @@ header {
 }
 
 .gold-card {
-  margin-top: 70px;
+  margin-bottom: -60px;
 }
 
 .zarincard-img {
@@ -519,6 +526,7 @@ header {
   font-family: "YekanBakhMedium";
   color: #303030;
   line-height: 36px;
+  width: 90%;
 }
 
 .definition h3 {
@@ -637,6 +645,10 @@ header {
   font-size: 22px;
   display: flex;
   text-decoration: none;
+}
+
+.link-req p {
+  margin-top: 3px;
 }
 
 footer {
@@ -830,6 +842,15 @@ footer {
     margin-left: 26px;
     margin-top: 55px;
   }
+  .support-number  {
+    font-size: 14px;
+  }
+  .link-req p  {
+    font-size: 18px;
+  }
+  .link-req p {
+    margin-top: 5px;
+}
 }
 
 @media (max-width: 990px) {
@@ -948,7 +969,6 @@ footer {
     background: none;
     display: flex;
     flex-direction: column;
-    margin-right: -2rem;
     margin-top: 65px;
   }
   .support-number,
@@ -1150,6 +1170,7 @@ footer {
   .section-links {
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     flex-wrap: wrap;
   }
   .section-links a {
@@ -1163,6 +1184,9 @@ footer {
   }
   .section-text p {
     margin-left: 0px;
+  }
+  .section-links .first-button {
+    margin-left: 0;
   }
   .gold-card {
     margin-top: 10px;
@@ -1178,6 +1202,7 @@ footer {
   }
   .items h4 {
     font-size: 20px;
+    margin-right: 12px;
   }
   .items {
     padding: 50px 0;
@@ -1189,12 +1214,19 @@ footer {
     max-width: 28rem;
   }
   .items {
-    margin-right: 25px;
+    margin: auto;
   }
   .items .item {
     padding: 18px 0;
   }
-
+  .items p {
+    margin-left: 0;
+    text-align: justify;
+  }
+  .second-item,
+  .fourth-item {
+    margin-right: 0;
+  }
   .start-box {
     height: 180px;
   }
@@ -1221,6 +1253,7 @@ footer {
   }
   .link-req p {
     font-size: 14px;
+    margin-top: 3px;
   }
   .support-request {
     margin-right: 18px;
@@ -1244,8 +1277,8 @@ footer {
     line-height: 29px;
   }
   footer {
-    width: calc(100% - 28px);
-    margin: 0 7px;
+    width: calc(100% - 100px);
+    margin: 0 50px;
   }
   .footer-links p,
   .footer-links a {
@@ -1256,6 +1289,14 @@ footer {
   }
   .footer-links li {
     line-height: 10px;
+  }
+  .footer-links a {
+    line-height: normal;
+  }
+  .footer-links {
+    margin-top: 35px;
+    align-self: center;
+    margin-right: -45px;
   }
   .social-media {
     margin: 0 auto;
