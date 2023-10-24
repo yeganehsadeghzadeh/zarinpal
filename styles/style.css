@@ -522,6 +522,7 @@ header {
   font-family: "YekanBakhMedium";
   color: #303030;
   line-height: 36px;
+  width: 90%;
 }
 
 .definition h3 {
@@ -640,6 +641,10 @@ header {
   font-size: 22px;
   display: flex;
   text-decoration: none;
+}
+
+.link-req p {
+  margin-top: 3px;
 }
 
 footer {
@@ -833,6 +838,15 @@ footer {
     margin-left: 26px;
     margin-top: 55px;
   }
+  .support-number  {
+    font-size: 14px;
+  }
+  .link-req p  {
+    font-size: 18px;
+  }
+  .link-req p {
+    margin-top: 5px;
+}
 }
 
 @media (max-width: 990px) {
@@ -951,7 +965,6 @@ footer {
     background: none;
     display: flex;
     flex-direction: column;
-    margin-right: -2rem;
     margin-top: 65px;
   }
   .support-number,
@@ -1236,6 +1249,7 @@ footer {
   }
   .link-req p {
     font-size: 14px;
+    margin-top: 3px;
   }
   .support-request {
     margin-right: 18px;
