@@ -358,6 +358,10 @@ header {
   height: 480px;
 }
 
+.Online-Payment-Gateway {
+  padding-top: 90px;
+}
+
 .section-text {
   margin: 30px 0;
   width: 530px;
@@ -440,7 +444,7 @@ header {
 }
 
 .gold-card {
-  margin-top: 70px;
+  margin-bottom: -60px;
 }
 
 .zarincard-img {
